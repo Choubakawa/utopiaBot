@@ -4,5 +4,5 @@ const bot=require("./lib/bot/bot.js");
 var config= require("./config.js");
 
 "fin temporaire"
-console.log(config)
+console.log(config.message)
 bot.run(config)
