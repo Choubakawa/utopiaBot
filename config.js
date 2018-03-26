@@ -1,4 +1,4 @@
-{
+module.exports = {
   "token": process.env.TOKEN,
   "name": "Choubakawa",
   "password": process.env.PASSWORD,
