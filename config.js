@@ -1,9 +1,9 @@
 module.exports = {
-  "token": process.env.TOKEN,
+  "token": ""+process.env.TOKEN,
   "name": "Choubakawa",
-  "password": process.env.PASSWORD,
+  "password": ""+process.env.PASSWORD,
   "rolesID":{
-    "verify": process.env.VERIFY
+    "verify": ""+process.env.VERIFY
   },
   "forum":{
     "link": "http://planellum-fornax.forumactif.org",
