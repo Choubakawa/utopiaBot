@@ -1,3 +1,5 @@
+var envVars = process.env || require('system').env;
+
 module.exports = {
   "token": envVars.TOKEN,
   "name": "Choubakawa",
