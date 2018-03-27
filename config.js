@@ -1,4 +1,8 @@
-var envVars = process.env || require('system').env;
+if (typeof process != 'undefined') {
+  var envVars = process.env; 
+} else {
+  var envVars = require('system').env;
+}
 
 module.exports = {
   "token": envVars.TOKEN,
