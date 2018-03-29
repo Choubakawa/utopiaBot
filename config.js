@@ -7,7 +7,7 @@ if (typeof process != 'undefined') {
 module.exports = {
   "lang": "fr-fr",
   "token": envVars.TOKEN,
-  "name": "utopiaBot",
+  "name": envVars.NAME,
   "password": envVars.PASSWORD,
   "rolesID":{
     "verify": envVars.VERIFY
