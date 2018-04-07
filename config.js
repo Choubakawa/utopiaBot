@@ -8,6 +8,7 @@ module.exports = {
   "lang": "fr-fr",
   "token": envVars.TOKEN,
   "name": envVars.NAME,
+  "admin": envVars.ADMIN,
   "password": envVars.PASSWORD,
   "rolesID":{
     "verify": envVars.VERIFY
@@ -17,7 +18,28 @@ module.exports = {
     "groups" : [
       {
         "name" : "Membres de Planellum",
-        "link" : "/g4-membres-de-planellum"
+        "link" : "/g4-membres-de-planellum",
+        "discordRoleId" : ""
+      },
+      {
+        "name" : "Amis de Planellum",
+        "link" : "/g9-amis-de-planellum",
+        "discordRoleId" : ""
+      },
+      {
+        "name" : "Candidats",
+        "link" : "/g19-candidats",
+        "discordRoleId" : ""
+      },
+      {
+        "name" : "Administrateurs",
+        "link" : "/g1-administrateurs",
+        "discordRoleId" : ""
+      },
+      {
+        "name" : "Padawan",
+        "link" : "/g12-padawan",
+        "discordRoleId" : ""
       }
     ]
   },

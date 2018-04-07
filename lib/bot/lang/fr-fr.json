@@ -2,7 +2,11 @@
     "invalidToken": " token invalide. Avez-vous fait : !UB identifie-moi-comme pseudoSurLeForum",
     "pseudoNeeded": " token invalide. Si vous n'avez pas eu le mp renvoyez : !UB identifie-moi-comme pseudoSurLeForum",
     "errorMp": " un problème est survenue lors de l'envoie du MP.",
+    "error": " un problème est survenu, contactez {admin} pour plus de détails.",
     "tokenSend": " un token vient de vous être envoyer par mp sur le forum.",
+    "tokenSendBy": " un token vous sera envoyé par {admin} par mp sur le forum.",
+    "MPtoSend": " MP a envoyé à {pseudo}:",
     "unknowCommand": " commande inconnue. Tapez !UB help pour plus d'information",
-    "validation": " vous êtes maintenant un membre validé"
+    "validation": " vous êtes maintenant un membre validé",
+    "joinGroup": " vous avez rejoint les groupes: "
 }

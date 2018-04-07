@@ -1,8 +1,8 @@
 const bot=require("./lib/bot/bot.js");
 
 "temporaire"
-var config= require("./config.js");
+var config = require("./config.js");
 
 "fin temporaire"
-console.log(config.message)
+config !== null ? console.log("Config loaded.") : console.log("No config loaded.");
 bot.run(config)
