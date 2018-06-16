@@ -5,6 +5,7 @@ if (typeof process != 'undefined') {
 }
 
 module.exports = {
+  "onHeroku": true,
   "lang": "fr-fr",
   "token": envVars.TOKEN,
   "name": envVars.NAME,
